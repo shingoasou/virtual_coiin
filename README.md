@@ -9,14 +9,12 @@
 - pip install ecdsa
 - pip install filelock
 ## 使い方
-
-### 公開鍵と秘密鍵の生成
-
 ```shell
 # 公開鍵および秘密鍵の生成
 $ python key.py
 
-# 電子署名$python key.py
+# 電子署名
+$python key.py
 $ python sign.py _input_secret_key_ _input_public_key_ _output_public_key_
 
 # 署名の検証
