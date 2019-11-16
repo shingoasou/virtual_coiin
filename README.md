@@ -14,7 +14,7 @@
 $ python key.py
 
 # 電子署名
-$python key.py
+$ python key.py
 $ python sign.py _input_secret_key_ _input_public_key_ _output_public_key_
 
 # 署名の検証
