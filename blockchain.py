@@ -2,6 +2,8 @@ import logging
 import sys
 import time
 
+import utils
+
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
