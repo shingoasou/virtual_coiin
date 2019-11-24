@@ -8,7 +8,7 @@
 - pip install base58
 - pip install ecdsa
 - pip install filelock
-## 使い方
+## 使い方(コマンド)
 ```shell
 # 公開鍵および秘密鍵の生成
 $ python key.py
@@ -53,3 +53,6 @@ $ python ../wallet.py
 # user1およびuser2でmycoind.pyを実行
 $ python ../mycoind.py
 ```
+
+## 使い方(API)
+構築中
